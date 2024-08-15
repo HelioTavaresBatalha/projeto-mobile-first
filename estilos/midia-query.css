@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*Configuração para as demais mídias*/
+
+@media print {}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    /* Versão de tela para tablet */
+    body {
+        background-image: url(../imagens/tablet.jpg);
+    }
+
+    img#phone {
+        display: none;
+        width: 20vw;
+    }
+
+    img#tablet {
+        display: block;
+        background-color: rgba(149, 23, 23, 0.084);
+    }
+
+    img#impressora {
+        display: none;
+    }
+
+    img#desktop {
+        display: none;
+    }
+
+    img#smartv {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    /* Versão para desktop */
+    body {
+        background-image: url(../imagens/desktop.jpg);
+    }
+
+    img#phone {
+        display: none;
+        width: 20vw;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impressora {
+        display: none;
+    }
+
+    img#desktop {
+        display: block;
+    }
+
+    img#smartv {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    /* Versão para smartv */
+    body {
+        background-image: url(../imagens/smartv.jpg);
+    }
+
+    img#phone {
+        display: none;
+        width: 20vw;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impressora {
+        display: none;
+    }
+
+    img#desktop {
+        display: none;
+    }
+
+    img#smartv {
+        display: block;
+    }
+}
